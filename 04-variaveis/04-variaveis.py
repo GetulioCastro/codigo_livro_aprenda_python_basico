@@ -22,12 +22,12 @@ print(x)
 print(y)
 print(z)
 
-# Definição de múltiplas variáveis com valores diferentes
+# Definição de múltiplas variáveis com valores diferentes (justaposição)
 x, y, z = 10, 20, 30
 print(x)
 print(y)
 print(z)
 
 # Captação de input do usuário
-nome = input("Olá, qual o seu nome?\n")
-print("Olá, %s" % nome)
+nome = input("Olá, qual o seu nome? ")
+print(f"Olá, {nome}!")
